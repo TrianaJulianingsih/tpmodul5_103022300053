@@ -1,4 +1,3 @@
-﻿
 
 using System;
 
@@ -13,7 +12,7 @@ public class DataGeneric<T>
 
     public void PrintData()
     {
-        Console.WriteLine($"Data yang tersimpan adalah: {data}");
+
     }
 }
 
@@ -26,3 +25,4 @@ class Program
         nimData.PrintData();
     }
 }
+
